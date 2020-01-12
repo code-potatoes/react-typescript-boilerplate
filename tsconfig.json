@@ -1,0 +1,47 @@
+{
+  
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "es6",
+        "target": "esnext",
+
+        "allowJs": false,
+        "alwaysStrict": true,
+
+        "sourceMap": false,
+        "removeComments": true,
+
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": false,
+
+        "strict": true,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": true,
+        "strictNullChecks": true,
+        "strictBindCallApply": true,
+
+        "noErrorTruncation": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+
+        "keyofStringsOnly": true,
+
+        "baseUrl": "./projects",
+        "jsx": "react",
+  
+        "typeRoots": [
+            "../../node_modules/@types/",
+            "./node_modules/@types/",
+            "./src/types/",
+        ]
+    },
+  
+    "include": [
+      "src/**/*.ts",
+      "src/**/*.tsx"
+    ]
+  }
+  
