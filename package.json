@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "React, Typescript and Parcel Bundler Boilerplate",
   "scripts": {
-    "start": "./node_modules/.bin/parcel --cache-dir .cache/ --out-dir dist/ public/index.html"
+    "start": "./node_modules/.bin/parcel --cache-dir .cache/ --out-dir dist/ public/index.html",
+    "build": "./node_modules/.bin/parcel build --cache-dir .cache/ --out-dir dist/ public/index.html"
   },
   "license": "MIT",
   "devDependencies": {
